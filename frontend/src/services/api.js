@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/api';
+const API_URL = 'https://chat-app-n9h6.onrender.com/api';
 
 export const login = async (username, password) => {
   const response = await fetch(`${API_URL}/auth/login`, {

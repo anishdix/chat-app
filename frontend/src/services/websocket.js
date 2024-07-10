@@ -1,7 +1,7 @@
 let ws = null;
 
 export const connectWebSocket = (token, onMessage) => {
-  ws = new WebSocket(`ws://localhost:3000?token=${token}`);
+  ws = new WebSocket(`wss://chat-app-n9h6.onrender.com/?token=${token}`);
   
   ws.onmessage = (event) => {
     const data = JSON.parse(event.data);
