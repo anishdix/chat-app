@@ -1,3 +1,5 @@
+//message controller ,get message and sort by time message was sent
+
 const Message = require('../models/Message');
 const asyncHandler = require('../utils/asyncHandler');
 

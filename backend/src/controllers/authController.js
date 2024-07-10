@@ -1,3 +1,5 @@
+//auth controler to register a new user and login
+
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
 const ApiError = require('../utils/apiError');

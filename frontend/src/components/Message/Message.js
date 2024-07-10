@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Message.module.css';
-
+//component for message box
 const Message = ({ message }) => {
   return (
     <div className={styles.message}>

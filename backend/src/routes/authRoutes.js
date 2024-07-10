@@ -1,3 +1,5 @@
+//all auth routes(register and login) REST api
+
 const express = require('express');
 const { register, login } = require('../controllers/authController');
 

@@ -1,3 +1,5 @@
+//connecting to our databse and starting 
+
 const mongoose = require('mongoose');
 
 const connectDB = async () => {

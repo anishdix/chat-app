@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import styles from './MessageInput.module.css';
 
+
+//form input to send message
 const MessageInput = ({ onSendMessage }) => {
   const [message, setMessage] = useState('');
 

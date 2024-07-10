@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { register } from '../../services/api';
 import styles from './Register.module.css';
 
+//register component
 const Register = ({ onRegisterSuccess }) => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');

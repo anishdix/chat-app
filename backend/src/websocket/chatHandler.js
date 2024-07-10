@@ -1,3 +1,5 @@
+//websocket api connection,send message
+
 const WebSocket = require('ws');
 const jwt = require('jsonwebtoken');
 const Message = require('../models/Message');

@@ -1,3 +1,4 @@
+//message model to store in the db
 const mongoose = require('mongoose');
 
 const messageSchema = new mongoose.Schema({

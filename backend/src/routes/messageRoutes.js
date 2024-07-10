@@ -1,3 +1,5 @@
+//message router REST api
+
 const express = require('express');
 const { getMessages } = require('../controllers/messageController');
 const authenticate = require('../middleware/authenticate');

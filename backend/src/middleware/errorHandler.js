@@ -1,3 +1,5 @@
+//handler middleware for null etc routes..
+
 const ApiError = require('../utils/apiError');
 
 const errorHandler = (err, req, res, next) => {

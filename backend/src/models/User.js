@@ -1,3 +1,4 @@
+//user model to store in db
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 

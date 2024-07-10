@@ -1,5 +1,6 @@
 const API_URL = 'https://chat-app-n9h6.onrender.com/api';
 
+//login user using jwt
 export const login = async (username, password) => {
   const response = await fetch(`${API_URL}/auth/login`, {
     method: 'POST',
@@ -10,6 +11,8 @@ export const login = async (username, password) => {
   return response.json();
 };
 
+
+//calling resgister api ,creates a user
 export const register = async (username, password, email) => {
   const response = await fetch(`${API_URL}/auth/register`, {
     method: 'POST',
@@ -20,6 +23,7 @@ export const register = async (username, password, email) => {
   return response.json();
 };
 
+//get message from db
 export const getMessages = async (token) => {
   const response = await fetch(`${API_URL}/messages`, {
     headers: { 'Authorization': `Bearer ${token}` },
