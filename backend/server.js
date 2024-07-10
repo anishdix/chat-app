@@ -6,12 +6,13 @@ const authRoutes = require('./src/routes/authRoutes');
 const messageRoutes = require('./src/routes/messageRoutes');
 const setupWebSocket = require('./src/websocket/chatHandler');
 const errorHandler = require('./src/middleware/errorHandler');
-
+const cors = require('cors');
 const app = express();
 const server = http.createServer(app);
 
 connectDB();
 
+app.use(cors());
 app.use(express.json());
 
 app.use('/api/auth', authRoutes);

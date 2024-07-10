@@ -1,0 +1,25 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.registerPrompt {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.registerLink {
+  background: none;
+  border: none;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.registerLink:hover {
+  color: darkblue;
+}
+*{
+  font-family: "Ubuntu";
+}

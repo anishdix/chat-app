@@ -1,0 +1,21 @@
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  .sender {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .content {
+    word-wrap: break-word;
+  }
+  
+  .timestamp {
+    float: right;
+    font-size: 0.8em;
+    color: #888;
+  }
